@@ -1,0 +1,26 @@
+{
+    "config": {
+      "title": "NGrok",
+      "step": {
+        "user": {
+          "title": "Configura NGrok",
+          "data": {
+            "CONF_NGROK_AUTH_TOKEN": "Token de autenticación de NGrok",
+            "CONF_NGROK_INSTALL_DIR": "Directorio de instalación de NGrok",
+            "CONF_NGROK_OS_VERSION": "Versión del sistema operativo para NGrok",
+            "CONF_HA_LOCAL_PROTOCOL": "Protocolo local de Home Assistant",
+            "CONF_HA_LOCAL_IP_ADDRESS": "Dirección IP local de Home Assistant",
+            "CONF_HA_LOCAL_PORT": "Puerto local de Home Assistant"
+          }
+        }
+      },
+      "error": {
+        "invalid_auth": "Autenticación inválida",
+        "unknown": "Error desconocido",
+        "cannot_connect": "No se puede conectar"
+      },
+      "abort": {
+        "already_configured": "Dispositivo ya configurado"
+      }
+    }
+  }
